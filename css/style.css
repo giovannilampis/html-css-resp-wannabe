@@ -164,7 +164,10 @@ img {
 
     /* PADDINGS & MARGINS */
 
-    .lessons .card p {
+    .lessons .card p,
+    .why-us .col-left,
+    .steps .col:first-child,
+    .steps .col:nth-child(2) {
         padding-bottom: 3rem;
     }
 
@@ -173,18 +176,19 @@ img {
         margin-bottom: 0;
     }
 
-    .steps .col:first-child,
-    .steps .col:nth-child(2) {
-        padding-bottom: 3rem;
-    }
-
     .why-us {
         padding: 3rem 0 2rem 0;
         margin-bottom: 0;
     }
 
-    .why-us .col-left {
-        padding-bottom: 3rem;
-    }
+ }
 
+ /* BONUS */
+
+ @media only screen and (min-width: 769px) and (max-width: 1160px) {
+
+    .steps .col img {
+        width: 100%;
+    }
+ 
  }
