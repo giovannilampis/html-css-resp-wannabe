@@ -187,8 +187,17 @@ img {
 
  @media only screen and (min-width: 769px) and (max-width: 1160px) {
 
-    .steps .col img {
+    .lessons .container,
+    .steps .container,
+    .why-us .container {
         width: 100%;
     }
- 
+    .lessons .container .row,
+    .steps .container .row,
+    .why-us .container .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
  }
